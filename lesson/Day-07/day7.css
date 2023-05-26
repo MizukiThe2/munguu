@@ -1,0 +1,45 @@
+.h1 {
+  height: 100px;
+  width: 50%;
+  background-color: rgb(130, 230, 16);
+}
+.h3 {
+  display: flex;
+}
+.h22 {
+  height: 50px;
+  width: 100%;
+  background-color: blueviolet;
+}
+.h23 {
+  height: 50px;
+  width: 100%;
+  background-color: aqua;
+}
+.m1 {
+  height: 100px;
+  width: 50%;
+  background-color: rgb(73, 0, 245);
+}
+.m3 {
+  margin-top: 20px;
+  display: flex;
+}
+.m22 {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(43, 226, 119);
+}
+.m23 {
+  display: flex;
+}
+.m222 {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(255, 0, 0);
+}
+.m223 {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(187, 255, 0);
+}

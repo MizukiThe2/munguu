@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Oswald:wght@300&display=swap");
+.test1 {
+  font-family: "Delicious Handrawn", cursive;
+  color: #c51ce3;
+  background-color: #291ce3e3;
+  height: 300px;
+  width: 500px;
+  border-radius: 30%;
+  margin: 150px;
+}
+.test2 {
+  margin: 150px;
+  color: #1ce3c5;
+  background-color: #471ce3da;
+  height: 300px;
+  width: 500px;
+  border-radius: 30%;
+}
+.test3 {
+  margin: 150px;
+  font-family: "Delicious Handrawn", cursive;
+  background-color: #e3c51c;
+  height: 300px;
+  width: 500px;
+  border-radius: 30%;
+}
+h3 {
+  padding: 50px;
+}
+
+/* body{
+    
+   
+
+  } */

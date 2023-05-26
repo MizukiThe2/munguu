@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Oswald:wght@300&display=swap");
+.t22 {
+  font-family: "Delicious Handrawn", cursive;
+  color: #c51ce3;
+}
+#t16 {
+  font-family: "Oswald", sans-serif;
+  color: #1ce3c5;
+}
+.t19 {
+  background-color: #e3c51c;
+  height: 300px;
+  width: 500px;
+  border-radius: 30%;
+}

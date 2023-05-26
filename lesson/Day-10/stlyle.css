@@ -1,0 +1,15 @@
+.surrender {
+  height: 100px;
+  width: 300px;
+
+  background-color: purple;
+  display: flex;
+}
+.surrender:hover {
+  background-color: rgb(252, 180, 0);
+  height: 1000px;
+  width: 1000px;
+}
+.surrender:active {
+  background-image: url(https://wallpaperaccess.com/full/251618.jpg);
+}
