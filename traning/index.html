@@ -9,28 +9,33 @@
   </head>
   <body>
     <div class="full">
-      <div class="q1">
+      <div class="left-card">
         <div class="text1">
           <h1>General Information</h1>
         </div>
         <form action="">
           <div class="q2">
-            <label for="">First Name</label>
-            <input type="text" maxlength="30" />
-            <label for="">last Name</label>
-            <input type="text" maxlength="30" />
+            <input
+              type="text"
+              class="names"
+              maxlength="30"
+              placeholder="First Name"
+            />
+            <input
+              type="text"
+              class="names"
+              maxlength="30"
+              placeholder="Last Name"
+            />
           </div>
           <div class="q3">
-            <label for="">yyyy.dd.mm</label>
-            <input type="date" maxlength="30" />
+            <input type="date" maxlength="30" placeholder="yyyy.dd.mm" />
           </div>
           <div class="q4">
-            <label for="">Email</label>
-            <input type="text" maxlength="30" />
+            <input type="text" maxlength="30" placeholder="Email" />
           </div>
           <div class="q5">
-            <label for="">Company</label>
-            <input type="text" maxlength="30" />
+            <input type="text" maxlength="30" placeholder="Company" />
           </div>
           <div class="q6">
             <select name="Position" id="Position">
@@ -39,14 +44,51 @@
           </div>
         </form>
       </div>
-      <div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+      <div class="right-card">
+        <div class="text2">
+          <h1>Contract Detais</h1>
+        </div>
+        <div class="m2">
+          <input type="text" maxlength="20" placeholder="Street" />
+        </div>
+        <div class="m3">
+          <input
+            type="text"
+            maxlength="30"
+            placeholder="Additional Information"
+          />
+        </div>
+        <div class="m4">
+          <input type="number" maxlength="30" placeholder="Zip code" />
+          <select name="Plase" id="">
+            <option value="">Plase</option>
+          </select>
+        </div>
+        <div class="m5">
+          <select name="Country" id="Country">
+            <option value="">Country</option>
+          </select>
+        </div>
+        <div class="m6">
+          <input type="text" maxlength="30" placeholder="Code" />
+          <input type="number" maxlength="10" placeholder="Phone Number" />
+        </div>
+        <div class="m7">
+          <input type="checkbox" />
+          <label for="">
+            I do accept the
+            <a href="">Terms and Conditions</a>
+            of your site
+          </label>
+        </div>
+        <div class="button">
+          <button
+            type="Register Badge"
+            style="border-radius: 30px; width: 130px; height: 40px"
+          >
+            Register Badge
+          </button>
+        </div>
       </div>
     </div>
   </body>
