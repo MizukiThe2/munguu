@@ -1,0 +1,79 @@
+.hamgintom {
+  margin-top: 0px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(140, 0, 255, 0.507);
+  padding: 5px;
+}
+body {
+  height: 100vh;
+  background-image: url(https://images.unsplash.com/photo-1523240795612-9a054b0db644?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 0;
+}
+.container {
+  margin-top: 0 auto;
+  width: 100%;
+  height: 130%;
+  background: linear-gradient(
+    90deg,
+    rgba(9, 0, 36, 0.4738270308123249) 0%,
+    rgba(67, 9, 121, 0.47102591036414565) 37%,
+    rgba(255, 0, 0, 0.48503151260504207) 100%
+  );
+}
+.deedtal {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: rgba(125, 62, 177, 0.541);
+}
+.doodtal {
+  display: flex;
+  flex-direction: column;
+}
+* {
+  color: white;
+  font-size: 1rem;
+}
+.secondcontainer {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+* input {
+  background-color: #fff;
+}
+textarea {
+  width: 99%;
+  color: black;
+}
+.dotor1 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.dotor2 {
+  display: flex;
+  flex-direction: column;
+}
+.dotor3 {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+#submit {
+  color: black;
+}
+input {
+  color: black;
+}
+td {
+  text-align: start;
+}
+fieldset {
+  padding: 20px 5px;
+}
